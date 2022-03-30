@@ -21,15 +21,6 @@ body {
    font-weight: 900;
    border-radius: 4px;
 }
-.btn:hover {
-   opacity: 0.9;
-}
-.btn:focus {
-   outline: 0;
-}
-.btn:active {
-   transform: scale(0.98);
-}
 .screen {
    display: flex;
    flex-direction: column;
@@ -47,7 +38,6 @@ body {
    flex-wrap: wrap;
    justify-content: center;
    list-style-type: none;
-   padding: 0;
 }  
 .insects-list li {
    margin: 10px;
@@ -57,7 +47,6 @@ body {
    border: 2px solid #fff;
    color: #fff;
    cursor: pointer;
-   font-family: inherit;
    width: 150px;
    height:  150px;
 }
