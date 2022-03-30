@@ -21,6 +21,12 @@ body {
    font-weight: 900;
    border-radius: 4px;
 }
+.btn:hover {
+   opacity: 0.9;
+}
+.btn:active {
+   transform: scale(0.98);
+}
 .screen {
    display: flex;
    flex-direction: column;
